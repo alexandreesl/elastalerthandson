@@ -1,0 +1,24 @@
+name: Twitter flatline rule
+
+type: flatline
+
+index: twitter-*
+
+threshold: 30
+
+timeframe: 
+  minutes: 5
+
+realert:
+  minutes: 30
+
+use_count_query: true
+
+doc_type: logs
+
+alert:
+- "telegram"
+
+telegram_bot_token: 194599943:AAEWX9tNvv4dWLq3VU63_A9Vp1CTIBhVhKA
+
+telegram_room_id: "@elastalerthandson"

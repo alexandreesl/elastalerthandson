@@ -1,0 +1,28 @@
+
+name: Twitter frequency rule
+
+type: frequency
+
+index: twitter-*
+
+num_events: 3
+
+timeframe:
+  minutes: 15
+
+realert:
+  hours: 2
+
+filter:
+- query:
+   query_string:
+    query: "message:amazon"
+
+
+alert:
+- "telegram"
+
+telegram_bot_token: 194599943:AAEWX9tNvv4dWLq3VU63_A9Vp1CTIBhVhKA
+
+telegram_room_id: "@elastalerthandson"
+

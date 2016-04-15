@@ -1,0 +1,16 @@
+rules_folder: rules_folder
+
+run_every:
+  seconds: 40
+
+buffer_time:
+  minutes: 15
+
+es_host: 192.168.99.100
+
+es_port: 9200
+
+writeback_index: elastalert_status
+
+alert_time_limit:
+  days: 2
