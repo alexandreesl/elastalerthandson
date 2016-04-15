@@ -19,6 +19,7 @@ doc_type: logs
 alert:
 - "telegram"
 
-telegram_bot_token: 194599943:AAEWX9tNvv4dWLq3VU63_A9Vp1CTIBhVhKA
+telegram_bot_token: 184186982:AAGpJRyWQ2Rb_RcFXncGrJrBrSK7BzoVFU8
+
 
 telegram_room_id: "@elastalerthandson"
